@@ -59,11 +59,11 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | CodeWithTanveer";
+            document.title = "Portfolio |Ravi Majhi";
             $("#favicon").attr("href", "assets/images/favicon.jpg");
         }
         else {
-            document.title = "Portfolio | Tanveer Ahmad";
+            document.title = "Portfolio | Ravi Majhi";
             $("#favicon").attr("href", "assets/images/favicon.jpg");
         }
     });
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "android development", "Full Stack Web Development"],
+    strings: ["frontend developer", "backend developer","Java Developer", "Full Stack Web Developer"],
     loop: true,
     typeSpeed: 60,
     backSpeed: 30,
@@ -219,11 +219,6 @@ srtop.reveal('.home .content .btn', { delay: 200 });
 srtop.reveal('.home .image', { delay: 400 });
 srtop.reveal('.home .linkedin', { interval: 600 });
 srtop.reveal('.home .github', { interval: 800 });
-srtop.reveal('.home .twitter', { interval: 1000 });
-srtop.reveal('.home .telegram', { interval: 600 });
-srtop.reveal('.home .instagram', { interval: 600 });
-srtop.reveal('.home .dev', { interval: 600 });
-
 /* SCROLL ABOUT */
 srtop.reveal('.about .content h3', { delay: 200 });
 srtop.reveal('.about .content .tag', { delay: 200 });
