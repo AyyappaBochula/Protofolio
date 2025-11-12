@@ -59,11 +59,11 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio |Ravi Majhi";
+            document.title = "Portfolio |Ayyappa Bochula";
             $("#favicon").attr("href", "assets/images/favicon.jpg");
         }
         else {
-            document.title = "Portfolio | Ravi Majhi";
+            document.title = "Portfolio | Ayyappa Bochula";
             $("#favicon").attr("href", "assets/images/favicon.jpg");
         }
     });
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend developer", "backend developer","Java Developer", "Full Stack Web Developer"],
+    strings: ["Frontend developer", "Backend developer","Python Developer", "Full Stack Web Developer"],
     loop: true,
     typeSpeed: 60,
     backSpeed: 30,
